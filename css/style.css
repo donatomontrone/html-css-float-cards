@@ -31,8 +31,9 @@ main > p {
 }
 
 section > p {
-    display: inline-block;
     color: white;
+    padding-left: .7rem;
+    font-size: .8rem;
 }
 
 .img-av {
@@ -48,4 +49,8 @@ section > p {
 .fl-left{
     width:calc((100% / 3) - 1.5rem);
     float: left;
+}
+
+.name{
+    font-weight: bold;
 }
