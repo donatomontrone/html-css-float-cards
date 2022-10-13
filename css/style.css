@@ -6,7 +6,7 @@
     box-sizing: border-box;
 }
 
-.clearfix {
+.clearfix::after {
     content: "";
     display: table;
     clear: both;
@@ -14,4 +14,38 @@
 
 body {
     font-family: 'Fredoka', sans-serif;
+}
+
+main {
+    width: 70%;
+    margin: 0 auto;
+}
+
+main h1 {
+    color: rgb(247, 0, 106);
+    text-align: center;
+    margin: 2rem;
+}
+main > p {
+    text-align: center;
+}
+
+section > p {
+    display: inline-block;
+    color: white;
+}
+
+.img-av {
+    width: 4rem;
+}
+.cell {
+    background-color: rgb(16, 13, 24);
+    margin-bottom: 2rem;
+    margin-left: 1.5rem;
+    box-shadow: 5px 5px 5px rgb(206,207, 205);
+}
+
+.fl-left{
+    width:calc((100% / 3) - 1.5rem);
+    float: left;
 }
