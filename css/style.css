@@ -16,7 +16,7 @@ body {
     font-family: 'Fredoka', sans-serif;
 }
 
-main {
+.conteiner {
     width: 70%;
     margin: 0 auto;
 }
@@ -28,29 +28,39 @@ main h1 {
 }
 main > p {
     text-align: center;
+    margin-bottom: 2rem;
 }
 
 section > p {
     color: white;
-    padding-left: .7rem;
+    padding: .7rem 5rem;
     font-size: .8rem;
+    vertical-align: top;
+    line-height: 1rem;
 }
 
-.img-av {
-    width: 4rem;
-}
+
 .cell {
     background-color: rgb(16, 13, 24);
     margin-bottom: 2rem;
     margin-left: 1.5rem;
     box-shadow: 5px 5px 5px rgb(206,207, 205);
+    width:calc((100% / 3) - 1.5rem - 5px);
+    display: inline-block;
+
 }
 
 .fl-left{
-    width:calc((100% / 3) - 1.5rem);
+    width: 4.4rem;
     float: left;
 }
 
 .name{
     font-weight: bold;
+    font-size: 1rem;
+}
+
+.mail{
+    color: rgb(0,187,249);
+    text-decoration: underline;
 }
