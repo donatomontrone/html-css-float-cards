@@ -1,5 +1,4 @@
 /* Reset */
-
 * {
     margin: 0;
     padding: 0;
@@ -23,36 +22,35 @@ body {
 
 main h1 {
     color: rgb(247, 0, 106);
-    text-align: center;
-    margin: 2rem;
-}
-main > p {
-    text-align: center;
-    margin-bottom: 2rem;
 }
 
 section > p {
     color: white;
-    padding: .7rem 5rem;
+    padding: .6rem;
     font-size: .8rem;
     vertical-align: top;
-    line-height: 1rem;
 }
 
+.header {
+    text-align: center;
+    margin-bottom: 2rem;
+}
+
+img.img {
+    width: 4.4rem;
+}
 
 .cell {
     background-color: rgb(16, 13, 24);
     margin-bottom: 2rem;
     margin-left: 1.5rem;
     box-shadow: 5px 5px 5px rgb(206,207, 205);
-    width:calc((100% / 3) - 1.5rem - 5px);
-    display: inline-block;
-
+    width:calc((100% / 3) - 3rem - 5px);
 }
 
 .fl-left{
-    width: 4.4rem;
     float: left;
+    margin-right: 1rem;
 }
 
 .name{
